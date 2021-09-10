@@ -1,0 +1,66 @@
+:root{
+    --primary: #F2C94C;
+    --black: #333333;
+    --width-break: 600px;
+}
+
+body{
+    margin: 0;
+    font-family: 'Kalam', cursive;
+    color: #333333;
+    display: block;
+}
+
+nav{
+    background-color: var(--primary);
+    text-align: center;
+}
+main{
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width-break);
+    display: block;
+}
+
+button{
+    background-color: var(--primary);
+    border: none;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem 2rem;
+    width: 30%;
+    height: 8vh;
+    font: inherit;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--primary);
+    text-align: center;
+}
+footer p{
+    max-width: var(--width-break);
+    margin: auto;
+}
+
+#textarea{
+    display: block;
+    width: 85%;
+    min-height: 20vh;
+    margin: 1rem 1rem;
+    font-size: large;
+    font-family: inherit;
+}
+#outputText{
+    border: 1px solid black;
+    margin: 0rem 1rem;
+    width: 78%;
+    min-height: 10vh;
+    display: block;
+    padding: 1rem 2rem;
+    max-height: 20vh;
+    overflow: scroll;
+}
